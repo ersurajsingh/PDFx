@@ -1,6 +1,7 @@
 # PDFx - Your Favourite PDF Merger Tool
 
-![PDFx logo](logo-url)
+![f71f1c9fd944e326eaccbf0b26e6bf47](https://github.com/ersurajsingh/PDFx/assets/36544126/6aa2b5c9-f810-4b05-b003-d6f059face93)
+
 
 PDFx is a robust and user-friendly tool for merging PDF files. With a sleek web interface and the power of JavaScript, it allows users to seamlessly merge two PDF files into one.
 
@@ -56,8 +57,3 @@ This application is built with the following dependencies:
 
 We welcome contributions from the open-source community. If you have any suggestions or features you'd like to add, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-Remember to replace `logo-url` with the actual URL of the logo for your application if you have one. This is just a basic template, feel free to add or remove sections according to your project's needs.
