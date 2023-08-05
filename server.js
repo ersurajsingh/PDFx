@@ -14,10 +14,9 @@ app.get('/', (req, res) => {
 app.post('/merge', upload.array('pdfs',2),async(req, res , next)=>{
     console.log(req.files)
     let d = await mergePdfs(path.join(__dirname,req.files[0].path),path.join(__dirname,req.files[1].path))
-    res.redirect(`http://localhost:3000/static/${d}.pdf`)
+    res.send(`http://localhost:3000/static/${d}.pdf`)
 
 })
-
 
 app.listen(port, () => {
   console.log(`Model app listening on port http://localhost:${port}`);
